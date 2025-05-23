@@ -12,8 +12,8 @@ import lombok.experimental.SuperBuilder;
 @NoArgsConstructor
 public class Windows extends SistemaOperativo {
     private String arquitecturaCompatible;      // Ej: x86, x64
-    private boolean enfocadoGaming;             // Ideal para juegos
-    private boolean usoCorporativo;             // Bien adoptado en empresas
+    private Boolean enfocadoGaming;             // Ideal para juegos
+    private Boolean usoCorporativo;             // Bien adoptado en empresas
     private String frecuenciaActualizaciones;   // Ej: Alta, media, baja
     private String nivelCompatibilidadSoftware; // Compatibilidad con programas
 

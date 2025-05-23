@@ -36,17 +36,17 @@ import lombok.experimental.SuperBuilder;
 
         System.out.println("¿Cuál es tu nombre?");
         setNombre(sc.nextLine());
-        System.out.println("¿Usas dispositivo móvil? (1. Sí / 2. No)");
+        System.out.println("EN BASE A LO ANTERIOR SELECCIONA 1 O 2, SEGUN EL CASO. ¿Usas dispositivo móvil? (1. Sí / 2. No)");
         setUsaDispositivoMovil(sc.nextInt() == 1);
         sc.nextLine(); 
-        System.out.println("¿Cuál es tu nivel de conocimiento técnico? (Bajo / Medio / Alto)");
+        System.out.println("ESCRIBE LA PALABRA SEGUN EL CASO, ¿Cuál es tu nivel de conocimiento técnico? (Bajo / Medio / Alto)");
         setNivelConocimiento(sc.nextLine());
-        System.out.println("¿Requieres alta seguridad? (1. Sí / 2. No)");
+        System.out.println("EN BASE A LO ANTERIOR SELECCIONA 1 O 2, SEGUN EL CASO ¿Requieres alta seguridad? (1. Sí / 2. No)");
         setRequiereSeguridadAlta(sc.nextInt() == 1);
         sc.nextLine(); 
-        System.out.println("¿Cuál es tu presupuesto? (Bajo / Medio / Alto)");
+        System.out.println("ESCRIBE LA PALABRA SEGUN EL CASO, ¿Cuál es tu presupuesto? (Bajo / Medio / Alto)");
         setPresupuesto(sc.nextLine());
-        System.out.println("¿Prefieres algún ecosistema? (Apple / Google / Libre / Ninguno)");
+        System.out.println("ESCRIBE LA PALABRA SEGUN EL CASO, ¿Prefieres algún ecosistema? (Apple / Google / Libre / Ninguno)");
         setEcosistemaPreferido(sc.nextLine());
         System.out.println("\n🔎 Analizando tu perfil...\n");
     }
